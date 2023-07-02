@@ -23,7 +23,7 @@ app.UseCors();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapHub<ChatHub>("/chat");
-    endpoints.MapGet("/", () => "Hello World!");
+    endpoints.MapGet("/", () => "SignalR chatService UP");
 });
 
 
